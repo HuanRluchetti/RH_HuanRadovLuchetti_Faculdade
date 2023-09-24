@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resição de Fudido</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="imagens/we-live.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header-home">
+      <h1>Férias</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href=""> Salário liquido </a>
+          </li>
+          <li>
+            <a href="ferias.html"> Férias </a>
+          </li>
+          <li>
+            <a href="recisao.html"> Recisão </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <from class="form-home" action="none">
+      <label for="input-salario">Preencha ai</label>
+
+      <section class="section-imput">
+        <div class="container-da-div-e-do-botao-liquido">
+          <input
+            type="number"
+            name="input-salario"
+            id="input-salario-bruto"
+            class="input-generico"
+            placeholder="Salário bruto"
+          />
+          <input
+            type="number"
+            name="input-salario"
+            id="input-meses-trabalhados"
+            class="input-generico"
+            placeholder="Meses trabalhados"
+          />
+          <button id="btn-calcular" class="btn-generico" onclick="calcFerias()">
+            Calcular
+          </button>
+        </div>
+        <p class="resposta">O resultado aparecerá aqui.</p>
+      </section>
+    </from>
+  </body>
+  <script src="script.js"></script>
+</html>

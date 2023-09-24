@@ -1,0 +1,153 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-image: url("imagens/fundo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-home {
+  width: 100%;
+  margin: auto;
+  padding-top: 30px;
+  color: #000;
+  display: flex;
+  margin: #0000;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+h1 {
+  text-align: center;
+  border-image-slice: 1;
+  border-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgba(243, 68, 68, 0.01),
+    rgba(243, 68, 68, 0),
+    rgba(243, 68, 68, 0)
+  );
+  border-bottom: 4px solid transparent;
+}
+
+nav > ul {
+  gap: 10px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #fff;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.form-home {
+  margin: auto;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 50px;
+
+  padding: 15px 50px 50px 10px;
+
+  font-size: 20px;
+}
+
+.salario-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding-left: 50px;
+
+  font-weight: 700;
+}
+
+label {
+  font-weight: bold;
+  color: #2c1200;
+  font-size: 14px;
+}
+
+.container-da-div-e-do-botao-liquido {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.section-imput {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.input-generico {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+
+  outline: 0;
+  transition: 0.5s all;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+}
+
+.input-generico:hover {
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.418);
+}
+
+.btn-generico {
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgb(43, 42, 42),
+    rgb(126, 125, 125)
+  );
+
+  color: white;
+
+  cursor: pointer;
+  transition: 0.5s all;
+
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+}
+
+.btn-generico:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(0, 0, 0),
+    rgb(43, 42, 42),
+    rgb(126, 125, 125)
+  );
+  color: rgb(151, 151, 151);
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.418);
+}
+
+.resposta {
+  text-align: center;
+}
